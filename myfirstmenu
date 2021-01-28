@@ -1,0 +1,77 @@
+<!-- This is my first menu ever. And the best one I made so far -->
+
+index.html 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Horizontal </title>
+</head>
+
+
+
+<nav id="menu-h">
+        <ul >
+            <li><a href="https://www.google.com/">Home</a></li>
+            <li><a href="https://www.google.com/">Sobre</a></li>
+            <li><a href="https://www.google.com/">Quem somos</a></li>
+            <li><a href="https://www.google.com/">Contato</a></li>
+            <li><a class="enter" href="https://www.google.com/">Entrar</a></li>
+        </ul>
+        
+</nav>   
+
+<body>
+
+</body>
+
+</html>
+
+
+
+
+
+style.css
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#menu-h {
+list-style: none;
+background-color: rgb(37, 37, 39);
+font-family: 'Open Sans';
+padding: 0;
+
+
+}
+
+#menu-h li {
+    display: inline;
+    
+}
+
+#menu-h li a {
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    display:inline-block;
+   transition: background .3s;
+
+}
+
+#menu-h li a:hover {
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    display:inline-block;
+    background-color: rgb(131, 65, 179);
+}
+
+.enter {
+float: right;
+}
